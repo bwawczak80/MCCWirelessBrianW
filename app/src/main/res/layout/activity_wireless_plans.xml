@@ -42,6 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:checked="true"
                     android:text="@string/newCustomer" />
 
                 <RadioButton
@@ -137,6 +138,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:checked="true"
                     android:text="@string/unlimited" />
             </RadioGroup>
 
@@ -158,15 +160,41 @@
                 android:text="@string/howManyLines"
                 android:textSize="24sp" />
 
-            <Spinner
-                android:id="@+id/spNumberOfLines"
+            <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="#24423F"
-                android:entries="@array/numberOfLines"
-                android:gravity="end"
-                android:padding="10dp"
-                android:spinnerMode="dialog" />
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/rbOneLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/oneLine" />
+
+                <RadioButton
+                    android:id="@+id/rbTwoLines"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/twoLines" />
+
+                <RadioButton
+                    android:id="@+id/rbThreeLines"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/threeLines" />
+
+                <RadioButton
+                    android:id="@+id/rbFourLines"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fourLines" />
+            </RadioGroup>
 
             <TextView
                 android:id="@+id/textView17"

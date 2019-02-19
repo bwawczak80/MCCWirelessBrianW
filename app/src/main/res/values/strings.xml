@@ -1,4 +1,16 @@
 <resources>
+    <string name="oneLine">One</string>
+    <string name="twoLines">Two</string>
+    <string name="threeLines">Three</string>
+    <string name="fourLines">Four</string>
+    <string name="lblCostOfPhones">Total Phone Cost: </string>
+    <string name="lblSelectedPlan">Plan: </string>
+    <string name="lblNumOfLines">Number of Lines:</string>
+    <string name="lblAddLine">Additional Line Charge: </string>
+    <string name="lblMultiDiscount">Multiple Line Discount: </string>
+    <string name="lblNewCustomerDiscount">New Customer Discount: </string>
+    <string name="lblGrandTotal">Total Cost: </string>
+    <string name="lblUpgradeDiscount">Upgrade Discount</string>
     <string name="app_name">MCCWirelessBrianW</string>
     <string name="deals">See Our Current Deals</string>
     <string name="plans">View Our Wireless Plans</string>
@@ -9,14 +21,14 @@
     <string name="haveAPhone">I already have a phone</string>
     <string name="newCustomer">I am a new customer</string>
     <string name="existingCustomer">I am an existing customer</string>
-    <string name="wirelessCompany">MCC Wireless</string>
+    <string name="wirelessCompany">Scope Creep Wireless</string>
     <string name="btnCalculate">Calculate</string>
     <string name="btnNext">Next</string>
     <string name="phones">Our Phones</string>
     <string name="currentDeals">Deals</string>
-    <string name="switchFrom">New Customers receive a free phone with new service.  Discount applies at checkout</string>
-    <string name="existingCustomerDeal">For a limited time existing customers are eligible for a 30% upgrade discount on new phones</string>
-    <string name="familySelect">Family select plans are available.  Each new line is just $20 a month in addition to your existing plan.  New and existing customers qualify for an additional 20% off additional phones.  </string>
+    <string name="switchFrom">New Customers get $300 off a new phone with new service.  Discount applies at checkout</string>
+    <string name="existingCustomerDeal">For a limited time, existing customers are eligible for a 30% upgrade discount on new phones</string>
+    <string name="familySelect">Family select plans are available.  Each new line is just $20 a month in addition to your existing plan.  New and existing customers save 20% off their plans base price if they add an additional line.  </string>
     <string name="img1">Girl on Phone</string>
     <string name="img2">Cell Phone</string>
     <string name="img3">Hand holding phone</string>
@@ -33,10 +45,11 @@
     <string name="phoneMap">a mobile phone over a map</string>
     <string name="budgetTxt">Unlimited talk and text with 5 Gigs of data.  Just $29.99 per month.</string>
     <string name="standardTxt">Unlimited talk and text with 8 Gigs of high speed data.  Just $39.99 per month</string>
-    <string name="unlimitedTxt">Unlimited talk, text and high speed data for just $49.99 per month. **For a limited time save %10 with each additional line added!</string>
+    <string name="unlimitedTxt">Unlimited talk, text and high speed data for just $49.99 per month.</string>
     <string name="standardCheck">Standard</string>
     <string name="budgetCheck">Budget</string>
     <string name="unlimitedCheck">Unlimited</string>
+    <string name="orderTotal">Your Total</string>
     <string name="howManyLines">How many lines you would like to add.</string>
     <string name="chooseYourPhone">Choose Your Phones</string>
     <string name="checkout">Checkout</string>
@@ -47,6 +60,6 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-
+<string name="special">Bonus 5% off a months service for selecting more than one deal!</string>
 
 </resources>
