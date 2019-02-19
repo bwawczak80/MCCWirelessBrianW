@@ -8,15 +8,303 @@
     tools:context=".wirelessPlans">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="0dp"
-        android:layout_height="710dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="427dp"
+                android:layout_height="260dp"
+                android:contentDescription="@string/phoneMap"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/mobile_plan"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/rbNewCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/newCustomer" />
+
+                <RadioButton
+                    android:id="@+id/rbExistingCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/existingCustomer" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/budget"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#24423F"
+                android:padding="10dp"
+                android:text="@string/budgetTxt"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/standard"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:padding="10dp"
+                android:text="@string/standardTxt"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/unlimited"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/ourPlans"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/rbBudget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/budget" />
+
+                <RadioButton
+                    android:id="@+id/rbStandard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/standard" />
+
+                <RadioButton
+                    android:id="@+id/rbUnlimited"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/unlimited" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:background="#24423F"
+                android:padding="10dp"
+                android:text="@string/unlimitedTxt"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/howManyLines"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spNumberOfLines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#24423F"
+                android:entries="@array/numberOfLines"
+                android:gravity="end"
+                android:padding="10dp"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F5652"
+                android:padding="10dp"
+                android:text="@string/chooseYourPhone"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="bottom"
+                android:padding="10dp"
+                android:text="@string/android_one"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spAndroidOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F5652"
+                android:entries="@array/numberOfLines"
+                android:gravity="end"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="bottom"
+                android:padding="10dp"
+                android:text="@string/samsung_galaxy_8"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spSamsungGalaxy8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F5652"
+                android:entries="@array/numberOfLines"
+                android:gravity="end"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="bottom"
+                android:padding="10dp"
+                android:text="@string/samsung_galaxy_9"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spSamsungGalaxy9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F5652"
+                android:entries="@array/numberOfLines"
+                android:gravity="end"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="bottom"
+                android:padding="10dp"
+                android:text="@string/google_pixel"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spGooglePixel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F5652"
+                android:entries="@array/numberOfLines"
+                android:gravity="end"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#24423F"
+                android:gravity="bottom"
+                android:padding="10dp"
+                android:text="@string/sony_xperia"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spSonyX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F5652"
+                android:entries="@array/numberOfLines"
+                android:gravity="end"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/idBtnCheckout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D69476"
+                android:text="@string/checkout"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <Button
+                android:id="@+id/idBtnPhones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D69476"
+                android:text="@string/phones"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <Button
+                android:id="@+id/idBtnGoHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D69476"
+                android:text="@string/btnHome"
+                android:textSize="18sp" />
+
+        </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

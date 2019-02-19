@@ -94,15 +94,11 @@
                 android:background="#D69476"
                 android:gravity="center"
                 android:text="@string/choosePhone"
-                android:textSize="24sp" />
+                android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/textView6"
+            <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/none"
-                android:textSize="3sp"
-                android:visibility="invisible" />
+                android:layout_height="3dp" />
 
             <Button
                 android:id="@+id/idBtnViewPlans"
@@ -111,15 +107,11 @@
                 android:background="#D69476"
                 android:gravity="center"
                 android:text="@string/plan"
-                android:textSize="24sp" />
+                android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/textView7"
+            <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/none"
-                android:textSize="3sp"
-                android:visibility="invisible" />
+                android:layout_height="3dp" />
 
             <Button
                 android:id="@+id/idBtnHome"
@@ -128,7 +120,7 @@
                 android:background="#D69476"
                 android:gravity="center"
                 android:text="@string/btnHome"
-                android:textSize="24sp" />
+                android:textSize="18sp" />
 
         </LinearLayout>
     </ScrollView>

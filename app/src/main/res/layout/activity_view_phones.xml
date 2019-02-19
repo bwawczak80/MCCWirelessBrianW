@@ -8,11 +8,8 @@
     tools:context=".viewPhones">
 
     <ScrollView
-        android:layout_width="395dp"
-        android:layout_height="715dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,13 +21,21 @@
             android:gravity="center"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/phone2" />
+
             <TextView
                 android:id="@+id/textView33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:gravity="center|top"
                 android:text="@string/phones"
                 android:textSize="30sp"
+                android:textStyle="bold"
                 tools:layout_editor_absoluteX="176dp"
                 tools:layout_editor_absoluteY="37dp" />
 
@@ -38,61 +43,94 @@
                 android:id="@+id/imageView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/android_one"
                 app:srcCompat="@drawable/android_one_moto" />
 
             <TextView
                 android:id="@+id/textView35"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/android_one" />
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/android_one"
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/samsung_galaxy_9"
                 app:srcCompat="@drawable/samsung_galaxy_9" />
 
             <TextView
                 android:id="@+id/textView36"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/samsung_galaxy_9" />
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/samsung_galaxy_9"
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/sony_xperia"
                 app:srcCompat="@drawable/sony_xperia_72" />
 
             <TextView
                 android:id="@+id/textView37"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/sony_xperia" />
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/sony_xperia"
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/google_pixel"
                 app:srcCompat="@drawable/google_pixel_2" />
 
             <TextView
                 android:id="@+id/textView38"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/google_pixel" />
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/google_pixel"
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/samsung_galaxy_8"
                 app:srcCompat="@drawable/samsung_galaxy_s8" />
 
             <TextView
                 android:id="@+id/textView39"
                 android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/samsung_galaxy_8"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/idBtnP"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/samsung_galaxy_8" />
+                android:background="#D69476"
+                android:text="@string/plan" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <Button
+                android:id="@+id/idBtnHm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D69476"
+                android:text="@string/btnHome" />
         </LinearLayout>
     </ScrollView>
 

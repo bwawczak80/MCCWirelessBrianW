@@ -4,8 +4,7 @@
     <string name="plans">View Our Wireless Plans</string>
     <string name="summary">Summary</string>
     <string name="plan">View Plans</string>
-    <string name="vetDiscount">Veterans qualify for an additional 5% off the total.</string>
-    <string name="imAVet">I\'m a veteran</string>
+    <string name="ourPlans">Choose Your Plan</string>
     <string name="choosePhone">View Phones</string>
     <string name="haveAPhone">I already have a phone</string>
     <string name="newCustomer">I am a new customer</string>
@@ -23,9 +22,31 @@
     <string name="img3">Hand holding phone</string>
     <string name="btnHome">Home Screen</string>
     <string name="none"> </string>
-    <string name="android_one">Android One Moto</string>
-    <string name="google_pixel">Google Pixel 2</string>
-    <string name="samsung_galaxy_9">Samsung Galaxy 9</string>
-    <string name="samsung_galaxy_8">Samsung Galaxy Z8</string>
-    <string name="sony_xperia">Sony Xperia 72</string>
+    <string name="android_one">Android One Moto $389.99</string>
+    <string name="google_pixel">Google Pixel 2 $549.99</string>
+    <string name="samsung_galaxy_9">Samsung Galaxy S9 $549.99</string>
+    <string name="samsung_galaxy_8">Samsung Galaxy S8 $385.00</string>
+    <string name="sony_xperia">Sony Xperia XZ2 $499.99</string>
+    <string name="budget">The Budget Plan</string>
+    <string name="standard">The Standard Plan</string>
+    <string name="unlimited">The Unlimited Plan</string>
+    <string name="phoneMap">a mobile phone over a map</string>
+    <string name="budgetTxt">Unlimited talk and text with 5 Gigs of data.  Just $29.99 per month.</string>
+    <string name="standardTxt">Unlimited talk and text with 8 Gigs of high speed data.  Just $39.99 per month</string>
+    <string name="unlimitedTxt">Unlimited talk, text and high speed data for just $49.99 per month. **For a limited time save %10 with each additional line added!</string>
+    <string name="standardCheck">Standard</string>
+    <string name="budgetCheck">Budget</string>
+    <string name="unlimitedCheck">Unlimited</string>
+    <string name="howManyLines">How many lines you would like to add.</string>
+    <string name="chooseYourPhone">Choose Your Phones</string>
+    <string name="checkout">Checkout</string>
+    <string-array name="numberOfLines">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
 </resources>
