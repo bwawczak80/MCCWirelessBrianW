@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MCCWirelessBrianW</string>
+    <string name="deals">See Our Current Deals</string>
+    <string name="plans">View Our Wireless Plans</string>
+    <string name="summary">Summary</string>
+    <string name="plan">View Plans</string>
+    <string name="vetDiscount">Veterans qualify for an additional 5% off the total.</string>
+    <string name="imAVet">I\'m a veteran</string>
+    <string name="choosePhone">View Phones</string>
+    <string name="haveAPhone">I already have a phone</string>
+    <string name="newCustomer">I am a new customer</string>
+    <string name="existingCustomer">I am an existing customer</string>
+    <string name="wirelessCompany">MCC Wireless</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="btnNext">Next</string>
+    <string name="phones">Our Phones</string>
+    <string name="currentDeals">Deals</string>
+    <string name="switchFrom">New Customers receive a free phone with new service.  Discount applies at checkout</string>
+    <string name="existingCustomerDeal">For a limited time existing customers are eligible for a 30% upgrade discount on new phones</string>
+    <string name="familySelect">Family select plans are available.  Each new line is just $20 a month in addition to your existing plan.  New and existing customers qualify for an additional 20% off additional phones.  </string>
+    <string name="img1">Girl on Phone</string>
+    <string name="img2">Cell Phone</string>
+    <string name="img3">Hand holding phone</string>
+    <string name="btnHome">Home Screen</string>
+    <string name="none"> </string>
+    <string name="android_one">Android One Moto</string>
+    <string name="google_pixel">Google Pixel 2</string>
+    <string name="samsung_galaxy_9">Samsung Galaxy 9</string>
+    <string name="samsung_galaxy_8">Samsung Galaxy Z8</string>
+    <string name="sony_xperia">Sony Xperia 72</string>
+</resources>
